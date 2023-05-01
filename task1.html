@@ -1,0 +1,31 @@
+<h3 style="color:rgb(79, 77, 77)" id="sum"></h3>
+<h3 style="color:rgb(1, 170, 189)" id="min"></h3>
+<h3 style="color:rgb(88, 88, 88)" id="mul"></h3>
+<h3 style="color:rgb(2, 166, 203)" id="div"></h3>
+<script type="text/javascript">
+
+    var a = parseInt(prompt("Enter No:-"));
+    var b = parseInt(prompt("Enter No:-"));
+    var c= a + b;
+    var d=a - b;
+    var e=a * b;
+    var f=a/b;
+
+    console.log("Addition = "+c);
+    console.log("Substraction = "+d);
+    console.log("Multiplication = "+e);
+    console.log("Division = "+f);
+
+    document.write("<h3 style='color:gray'> Ans Sum = "+c+"</h3>");
+    document.write("<h3 style='color:skyblue'> Ans Min= "+d+"</h3>");
+    document.write("<h3 style='color:gray'> Ans Mul = "+e+"</h3>");
+    document.write("<h3 style='color:skyblue'> Ans Div = "+f+"</h3>");
+
+    alert("Ans = "+c);
+
+    document.getElementById("sum").innerHTML= "Addition = "+c;
+    document.getElementById("min").innerHTML= "Substraction  = "+d;
+    document.getElementById("mul").innerHTML= "Multiplication = "+e;
+    document.getElementById("div").innerHTML= "Division = "+f;
+
+</script>
